@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1596202078746" stop="1596202095692" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>All Test Suite : F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java</name>
+    <title>All Test Suite : F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java</title>
+    <test-cases>
+        <test-case start="1596202086909" stop="1596202090178" status="passed">
+            <name>validCredentials</name>
+            <steps>
+                <step start="1596202086925" stop="1596202087326" status="passed">
+                    <name>checkPage</name>
+                    <title>Checking for correct page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="d02967c8-9167-440c-ae61-4bfa256d4904-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202087326" stop="1596202087834" status="passed">
+                    <name>setUsername[standard_user]</name>
+                    <title>Set username</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="bbefcc69-c45f-493f-82be-cd19937afb61-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202087834" stop="1596202088200" status="passed">
+                    <name>setPassword[secret_sauce]</name>
+                    <title>Set password</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="e85adaf7-78c0-4741-8c53-5b691cd546aa-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202088200" stop="1596202090178" status="passed">
+                    <name>checkLoginSuccess</name>
+                    <title>Click login Success</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="6cec5b25-18af-44ca-9642-890271c91437-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.logIn.LogInTests"/>
+                <label name="testMethod" value="validCredentials"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596202090193" stop="1596202091254" status="passed">
+            <name>addToCart</name>
+            <steps>
+                <step start="1596202090193" stop="1596202090484" status="passed">
+                    <name>checkPage</name>
+                    <title>Check for correct Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="645f2a2b-c387-4229-8219-25c44cfe7c80-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202090485" stop="1596202090826" status="passed">
+                    <name>getLabels</name>
+                    <title>Get Labels of items</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1596202090826" stop="1596202091254" status="passed">
+                    <name>getButtons</name>
+                    <title>Get add to cart buttons</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.inventory.InventoryPageTests"/>
+                <label name="testMethod" value="addToCart"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596202091255" stop="1596202092109" status="passed">
+            <name>checkCartButton</name>
+            <steps>
+                <step start="1596202091256" stop="1596202091554" status="passed">
+                    <name>checkPage</name>
+                    <title>Check for correct Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="9c367c39-2b06-48a2-997a-62543582b381-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202091554" stop="1596202092109" status="passed">
+                    <name>checkCartButton</name>
+                    <title>Check cart button</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="39ea8e92-673e-455e-9fa6-1f3868fdee47-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.inventory.InventoryPageTests"/>
+                <label name="testMethod" value="checkCartButton"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596202092109" stop="1596202092414" status="passed">
+            <name>checkAddToCartButton</name>
+            <steps>
+                <step start="1596202092109" stop="1596202092358" status="passed">
+                    <name>checkPage</name>
+                    <title>Check for correct Page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="793cae38-7e60-4259-b1d4-ca8df665d649-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202092358" stop="1596202092414" status="passed">
+                    <name>checkNoOfItems[6]</name>
+                    <title>Check no. of cart items</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.inventory.InventoryPageTests"/>
+                <label name="testMethod" value="checkAddToCartButton"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596202092430" stop="1596202093030" status="passed">
+            <name>checkItems</name>
+            <steps>
+                <step start="1596202092445" stop="1596202092724" status="passed">
+                    <name>checkPage</name>
+                    <title>Check for correct page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="cde49767-b58d-4fb2-aa80-5d7869510adb-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202092724" stop="1596202092830" status="passed">
+                    <name>getItemsList</name>
+                    <title>Get items list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.cartPage.CartPageTests"/>
+                <label name="testMethod" value="checkItems"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596202093030" stop="1596202093924" status="passed">
+            <name>checkCheckout</name>
+            <steps>
+                <step start="1596202093030" stop="1596202093402" status="passed">
+                    <name>checkPage</name>
+                    <title>Check for correct page</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="04d7f7cb-18c3-46fe-ab7d-d2fe121cbae0-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202093402" stop="1596202093924" status="passed">
+                    <name>checkCheckout</name>
+                    <title>Check checkout</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="3a59a909-d510-498b-8137-a2354d6a5047-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.cartPage.CartPageTests"/>
+                <label name="testMethod" value="checkCheckout"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596202093924" stop="1596202095692" status="passed">
+            <name>validCheckout</name>
+            <steps>
+                <step start="1596202093924" stop="1596202094196" status="passed">
+                    <name>checkPage</name>
+                    <title>Check Page</title>
+                    <attachments>
+                        <attachment title="takeScreenshot" source="a1ac1416-8187-4404-8ead-08997cf34465-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202094196" stop="1596202094559" status="passed">
+                    <name>setFirstName</name>
+                    <title>Set First Name</title>
+                    <attachments>
+                        <attachment title="takeScreenshot" source="4fa398b6-1662-4e58-bc58-ce98f7543d40-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202094559" stop="1596202094891" status="passed">
+                    <name>setLastName</name>
+                    <title>Set Last Name</title>
+                    <attachments>
+                        <attachment title="takeScreenshot" source="8954bd25-bb73-4246-943b-b69291e66e4b-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202094891" stop="1596202095209" status="passed">
+                    <name>setPostalCode</name>
+                    <title>Set Postal Code</title>
+                    <attachments>
+                        <attachment title="takeScreenshot" source="064643c7-dfda-450a-8e84-8f37684df119-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1596202095209" stop="1596202095692" status="passed">
+                    <name>checkContinueButton</name>
+                    <title>Check Success Continue Button</title>
+                    <attachments>
+                        <attachment title="takeScreenshot" source="8f17df5b-b6c5-444d-a24e-8c574f84c40e-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="All Test Suite"/>
+                <label name="testGroup" value="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java"/>
+                <label name="testClass" value="com.sauce.checkout.CheckoutPageTests"/>
+                <label name="testMethod" value="validCheckout"/>
+                <label name="host" value="DESKTOP-OH5VSFP"/>
+                <label name="thread" value="12424@DESKTOP-OH5VSFP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

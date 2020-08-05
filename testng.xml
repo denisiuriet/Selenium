@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java">
+        <groups>
+            <run>
+                <include name="order"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.sauce.logIn.LogInTests">
+            </class>
+
+            <class name="com.sauce.inventory.InventoryPageTests">
+            </class>
+
+            <class name="com.sauce.cartPage.CartPageTests">
+            </class>
+
+            <class name="com.sauce.checkout.CheckoutPageTests">
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

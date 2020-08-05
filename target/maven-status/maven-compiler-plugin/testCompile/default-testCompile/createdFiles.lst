@@ -1,0 +1,9 @@
+com\sauce\inventory\InventoryPageTests.class
+com\sauce\inventory\InventoryPage.class
+com\sauce\logIn\LogInPage.class
+com\sauce\logIn\LogInTests.class
+resources\Elements.class
+com\sauce\checkout\CheckoutPage.class
+com\sauce\checkout\CheckoutPageTests.class
+com\sauce\cartPage\CartPage.class
+com\sauce\cartPage\CartPageTests.class

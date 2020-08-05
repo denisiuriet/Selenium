@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="17226" started-at="2020-07-31T13:05:52Z" finished-at="2020-07-31T13:06:09Z">
+    <groups>
+      <group name="order">
+        <method signature="CartPageTests.checkCheckout()[pri:0, instance:com.sauce.cartPage.CartPageTests@660f0c]" name="checkCheckout" class="com.sauce.cartPage.CartPageTests"/>
+        <method signature="CartPageTests.checkItems()[pri:0, instance:com.sauce.cartPage.CartPageTests@660f0c]" name="checkItems" class="com.sauce.cartPage.CartPageTests"/>
+        <method signature="CheckoutPageTests.validCheckout()[pri:0, instance:com.sauce.checkout.CheckoutPageTests@48840594]" name="validCheckout" class="com.sauce.checkout.CheckoutPageTests"/>
+        <method signature="InventoryPageTests.addToCart()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="addToCart" class="com.sauce.inventory.InventoryPageTests"/>
+        <method signature="InventoryPageTests.checkAddToCartButton()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="checkAddToCartButton" class="com.sauce.inventory.InventoryPageTests"/>
+        <method signature="InventoryPageTests.checkCartButton()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="checkCartButton" class="com.sauce.inventory.InventoryPageTests"/>
+        <method signature="LogInTests.validCredentials()[pri:0, instance:com.sauce.logIn.LogInTests@22587507]" name="validCredentials" class="com.sauce.logIn.LogInTests"/>
+      </group> <!-- order -->
+    </groups>
+    <test name="F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java" duration-ms="17226" started-at="2020-07-31T13:05:52Z" finished-at="2020-07-31T13:06:09Z">
+      <class name="com.sauce.checkout.CheckoutPageTests">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.sauce.checkout.CheckoutPageTests@48840594]" name="driverSetup" is-config="true" duration-ms="0" started-at="2020-07-31T16:06:07Z" finished-at="2020-07-31T16:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="validCheckout()[pri:0, instance:com.sauce.checkout.CheckoutPageTests@48840594]" name="validCheckout" duration-ms="2600" started-at="2020-07-31T16:06:07Z" finished-at="2020-07-31T16:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckout -->
+      </class> <!-- com.sauce.checkout.CheckoutPageTests -->
+      <class name="com.sauce.cartPage.CartPageTests">
+        <test-method status="PASS" signature="checkItems()[pri:0, instance:com.sauce.cartPage.CartPageTests@660f0c]" name="checkItems" duration-ms="636" started-at="2020-07-31T16:06:05Z" finished-at="2020-07-31T16:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItems -->
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.sauce.cartPage.CartPageTests@660f0c]" name="driverSetup" is-config="true" duration-ms="0" started-at="2020-07-31T16:06:05Z" finished-at="2020-07-31T16:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="checkCheckout()[pri:0, instance:com.sauce.cartPage.CartPageTests@660f0c]" name="checkCheckout" duration-ms="934" started-at="2020-07-31T16:06:06Z" finished-at="2020-07-31T16:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheckout -->
+      </class> <!-- com.sauce.cartPage.CartPageTests -->
+      <class name="com.sauce.inventory.InventoryPageTests">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="driverSetup" is-config="true" duration-ms="0" started-at="2020-07-31T16:06:03Z" finished-at="2020-07-31T16:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="addToCart" duration-ms="1196" started-at="2020-07-31T16:06:03Z" finished-at="2020-07-31T16:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="checkCartButton()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="checkCartButton" duration-ms="1024" started-at="2020-07-31T16:06:04Z" finished-at="2020-07-31T16:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartButton -->
+        <test-method status="PASS" signature="checkAddToCartButton()[pri:0, instance:com.sauce.inventory.InventoryPageTests@5c77ba8f]" name="checkAddToCartButton" duration-ms="385" started-at="2020-07-31T16:06:05Z" finished-at="2020-07-31T16:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToCartButton -->
+      </class> <!-- com.sauce.inventory.InventoryPageTests -->
+      <class name="com.sauce.logIn.LogInTests">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.sauce.logIn.LogInTests@22587507]" name="driverSetup" is-config="true" duration-ms="6517" started-at="2020-07-31T16:05:52Z" finished-at="2020-07-31T16:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.sauce.logIn.LogInTests@22587507]" name="setupDriver" is-config="true" duration-ms="633" started-at="2020-07-31T16:05:59Z" finished-at="2020-07-31T16:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="validCredentials()[pri:0, instance:com.sauce.logIn.LogInTests@22587507]" name="validCredentials" duration-ms="3255" started-at="2020-07-31T16:05:59Z" finished-at="2020-07-31T16:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+      </class> <!-- com.sauce.logIn.LogInTests -->
+    </test> <!-- F:/Workspace/Second/src/test/java/com/sauce/inventory2/TestInventoryPage.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
